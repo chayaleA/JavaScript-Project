@@ -1,0 +1,122 @@
+
+body {
+  background-image: url("pictures/boardGamePicture.gif");
+  background-repeat: no-repeat;
+  background-size: 1550px 1000px;
+}
+
+#main{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas:
+  "sect1"
+  "sect2"
+  "sect3";
+}
+
+.pride-button {
+  background-color: aqua;
+  color: rgb(108, 2, 2);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.title{
+    color:black;
+    font-size: 125%;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+label{
+    color:white;
+}
+
+body {
+  background-image: url(pictures/backgroundGame.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#instructions p {
+  text-align: center;
+  color:deeppink;
+  font-size: 15px;
+}
+
+h1{
+  text-align:center;
+}
+
+#instructions{
+  background-color: #ffffffb3;
+  border-radius: 15px;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 75%;
+  padding: 1.5%;
+  grid-area: sect2;
+}
+
+#deletedLines{
+  background-color: #ffffffb3;
+  border-radius: 15px;
+  position: absolute;
+  padding: 4%;
+  grid-area: sect1;
+  margin-left: 9%;
+  margin-top: 9.75%;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+}
+
+.title{
+  margin-top: -15%;
+}
+
+#canvas{
+  display: flex;
+  justify-content: center;
+  grid-area: sect3;
+  margin-top: 1vh;
+  margin-left: 2vh;
+}
+
+#score,#HighScore{
+  text-align: center;
+  font-size: 32px;
+  font-family: Arial, sans-serif;
+  color:deeppink;
+}
+
+.container {
+  width: 200px;
+  height: 30px;
+  border: none;
+}
+
+.transparent-textfield {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+#demo{
+  margin-left: 2%;
+  font-size: 28px;
+  font-weight: bold;
+  color: deeppink;
+}
+
+#GameOver{
+  position: absolute;
+  margin-top: 36vh;
+  margin-left: 8vw;
+  visibility: hidden;
+}

@@ -1,0 +1,90 @@
+
+body {
+    background-image: url(pictures/boardGamePicture.gif);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position-x: 100%;
+    background-position-y: 40%;
+    background-size: cover; 
+    background-position: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #e7782d;
+    border-color: #ffffff00;  
+}
+
+#buttom {
+    text-align: center;
+    visibility:visible;
+}
+
+.jumbotron {
+    padding-top:20%;
+    background: rgba(76, 175, 80, 0.01);
+}
+
+#login {
+    visibility: hidden;
+    padding-top:10%;
+}
+
+form {
+    text-align: center;  
+}
+
+input {
+    background-image: none;
+    border: none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+}
+
+.login__header {
+    background-color: #b8c4a9;
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
+    color: #fff;
+    padding: 1.25em 1.625em;
+    box-shadow: -2px 0px 15px rgb(0, 0, 0);
+}
+
+.login__form {
+    background-color: #fff;
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    color: #777;
+    display: grid;
+    gap: 0.875em;
+    padding: 1.25em 1.625em;
+    box-shadow: 1px 6px 15px rgb(0, 0, 0);
+}
+
+.login input[type="email"],
+.login input[type="password"] ,
+.login input[type="text"]
+{
+    background-color: #eee;
+    color: #777;
+    padding: 0.25em 0.625em;
+    width: 100%;
+}
+
+#finishFilltheForm,#submit {
+    background-color: #33cc77;
+    color: #fff;
+    padding: 0.25em 1.5em;
+    border-radius: 10px;
+    font-size: 25px; 
+}
+
+#finishFilltheForm:hover {
+    box-shadow: 0px 1px 15px rgb(0, 0, 0)
+}
+
+a {
+    color: white;    
+}
